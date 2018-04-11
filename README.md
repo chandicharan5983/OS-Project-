@@ -4,6 +4,7 @@
 Considering 4 processes with the arrival time and the burst time requirement of the processes the scheduler schedules the processes by interrupting the processor after every 3 units of time and does consider the completion of the process in this iteration. The schedulers then checks for the number of processes waiting for the processor and allots the processor to the process but interrupting the processor after every 6 units of time and considers the completion of the process in this iteration. The scheduler after the second iteration checks for the number of processes waiting for the processor and now provides the processor to the process with the least time requirement to go in the terminated state.
 The inputs for the number of requirements, arrival time and burst time should be provided by the user.
 Consider the following units for reference.
+
 ![os_qus2](https://user-images.githubusercontent.com/38296507/38639805-ff97ea16-3def-11e8-8593-5a327b3fb525.JPG)
 
 Write a multithreaded program in C that outputs prime numbers. This program should work as follows: The user will run the program and will enter a number on the command line. The program will then create a separate thread that outputs all the prime numbers less than or equal to the number entered by the user.
