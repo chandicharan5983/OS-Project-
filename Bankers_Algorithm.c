@@ -26,7 +26,7 @@ int main()
 	printf("Enter the value of Available as A B C D\n");
 	for(k=0;k<4;k++)
 	{
-		scanf("%d",&av[k]);
+		scanf("%d",&av[k]); 
 	}
 	printf("\n\n\n");
 	for(i=0;i<n;i++)
