@@ -38,7 +38,6 @@ void thirdIteration(int num,int rem_time[10],int current_time,int arr_time[10], 
 		}
 		 	total+=wtime[i];
 	}
-	 
 	averagewt=(float)total/n;
 	total=0;
 	printf("\nProcess\tBurst time\tWaiting time\tTurnaround Time");
