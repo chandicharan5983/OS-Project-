@@ -56,11 +56,6 @@ int main()
 				printf("This system is in safe state\n");
 				break;
 			}
-			else
-			{
-				printf("This system is in safe state\n");
-				break;
-			}
 		}
 	}	
 }
